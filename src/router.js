@@ -2,7 +2,7 @@
 import LandingPage from "./pages/LandingPage";
 import JobPage from "./pages/JobPage";
 import AboutUs from "./pages/AboutUsPage";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 const RouterComponent = () =>{
     return(
