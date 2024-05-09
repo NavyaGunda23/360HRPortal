@@ -70,12 +70,16 @@ const navigate = useNavigate();
     }else if(tabName=="About Us"){
       navigate("/aboutus")
     }
+    else if(tabName=="Services"){
+      navigate("/services")
+    }
     const updatedPages = pages.map(page => ({ ...page, active: false }));
     const index = updatedPages.map(e => e.tabName).indexOf(tabName);
     updatedPages[index].active = true;
     setData(updatedPages)
   }
   const location = useLocation()
+  console.log("location",location)
   const getActiveTab = () => {
     const updatedPages = pages.map(page => ({ ...page, active: false }));
     if(location.pathname == "/"){
@@ -85,13 +89,19 @@ const navigate = useNavigate();
     }else if(location.pathname == "/aboutus"){
       updatedPages[1].active = true;
     }
+    else if(location.pathname == "/services"){
+      updatedPages[2].active = true;
+    }
+    else if(location.pathname.includes("/serviceDetails/")){
+      updatedPages[2].active = true;
+    }
     setData(updatedPages)
   }
 
   React.useEffect(() =>{
       console.log("data",data)
       getActiveTab()
-  },[data])
+  },[])
   return (
     <AppBar sx={{
         background:"white",boxShadow:"none",position:"relative"

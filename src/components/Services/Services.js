@@ -11,6 +11,7 @@ import engage from "../../assest/enage.jpg"
 import solution from "../../assest/enage.jpg"
 import sme from "../../assest/sme.jpg"
 import backgroun from "../../assest/h2_about_shape03.png"
+import { useNavigate } from "react-router-dom";
 const Services = () => {
 
     const serviceList = [
@@ -18,39 +19,50 @@ const Services = () => {
             name:"360 Intern",
             description:"Dedicated supervision. Constructive feedback. And meaningful projects",
             customClass:"card1 bluecard",
-            iconsName:intern1
+            iconsName:intern1,
+            serviceName:"intern"
         },
         {
             name:"360 Search",
             description:"We act as an extension of our clients business identifying and engaging suitable candidates.",
             customClass:"card1 purpleCard",
-            iconsName:Search
+            iconsName:Search,
+            serviceName:"search"
         },
         {
             name:"360 Source",
             description:"Dedicated supervision. Constructive feedback. And meaningful projects",
             customClass:"card1 greenCard",
-            iconsName:source
+            iconsName:source,
+            serviceName:"sources"
         },
         {
             name:"360 Engage",
             description:"We offer the services of designing and creating employee management strategies.",
             customClass:"card1 redCard",
-            iconsName:engage
+            iconsName:engage,
+            serviceName:"hrsources"
         },
         {
             name:"360 Bulk",
             description:"We make sure to create a visceral sketch of the ideal hire, before beginning our filtering process.",
             customClass:"card1 greenCard",
-            iconsName:bulk
+            iconsName:bulk,
+            serviceName:"bulkdata"
         },
         {
             name:"360 SME Solutions",
             description:"Specialises in handling start-ups & SME clients that need tailor-made solutions for hiring needs.",
             customClass:"card1 bluecard",
-            iconsName:sme
+            iconsName:sme,
+            serviceName:"sme"
         }
     ]
+
+    const navigate = useNavigate()
+    const handleViewDetails = (name) => {
+        navigate(`/serviceDetails/${name}`)
+    }
     return(
         <Box sx={{position:"relative",overflow:"hidden"}}>
             <Box className="rightani" sx={{position:"absolute",zIndex:0,right:0,bottom:-200}}>
@@ -96,7 +108,7 @@ const Services = () => {
                         </Typography>
     
 
-     <Button sx={{mt:"20px"}}>details</Button>
+     <Button sx={{mt:"20px"}} onClick={() => handleViewDetails(services.serviceName)}>details</Button>
  </Box>
 
 </Box>

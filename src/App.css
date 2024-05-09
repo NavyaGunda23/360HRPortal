@@ -446,3 +446,73 @@ font-family: "Poppins";
 .customInput input{
   border: none
 }
+
+.pageLevelServiceCard{
+  position: relative;
+  z-index: 1;
+  background-color: #fff;
+  padding: 30px 50px 28px;
+  border-radius: 5px;
+  -webkit-transition: 0.5s all ease;
+  transition: 0.5s all ease;
+  box-shadow: 0px 10px 30px #CED2DD;
+}
+
+.pageLevelServiceCard:hover .icons {
+  transform: rotateY(180deg);
+ 
+}
+
+.pageLevelServiceCard .customshape {
+ 
+  transition: 0.5s all ease;
+}
+.pageLevelServiceCard:hover .customshape {
+  background-color: #28aa4a;
+}
+
+.pageLevelServiceCard img {
+  transition: .3s linear;
+}
+
+
+.pageLevelServiceCard:hover {
+  -webkit-transform: translate(0px, -10px);
+  transform: translate(0px, -10px);
+}
+.pageLevelServiceCard:before {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 0;
+  left: 0;
+  bottom: 0;
+  /* background-color: #221668; */
+  opacity: 0;
+  z-index: -1;
+  border-radius: 5px;
+  -webkit-transition: 0.5s all ease;
+  transition: 0.5s all ease;
+}
+.pageLevelServiceCard:hover:before {
+  opacity: 1;
+  height: 100%;
+}
+/* .pageLevelServiceCard:hover p {
+  color: #fff;
+} */
+.pageLevelServiceContainer{
+  display: grid;
+width: 100%;
+justify-content: center;
+align-items: center;
+grid-template-columns: repeat(auto-fill, minmax(300px,350px));
+grid-gap: 40px;
+font-family: "Poppins";
+}
+.serviceDetailsContainer:hover{
+  background: #28aa4a;
+}
+.serviceDetailsContainer:hover p,.serviceDetailsContainer:hover svg{
+  color: #fff;
+}
