@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/360HRPortal/static/css/main.f64401cd.css",
-    "main.js": "/360HRPortal/static/js/main.fb8a2d77.js",
+    "main.css": "/360HRPortal/static/css/main.6ae6b9d9.css",
+    "main.js": "/360HRPortal/static/js/main.ea9df799.js",
     "static/js/453.16899fc5.chunk.js": "/360HRPortal/static/js/453.16899fc5.chunk.js",
     "static/media/intern1.jpg": "/360HRPortal/static/media/intern1.3529b2ab736a10efd850.jpg",
     "static/media/source.png": "/360HRPortal/static/media/source.a5b10fb5fa57bd3568eb.png",
@@ -17,16 +17,17 @@
     "static/media/4178155.jpg": "/360HRPortal/static/media/4178155.d8204035be3f2709f9c1.jpg",
     "static/media/whatweOffer.jpg": "/360HRPortal/static/media/whatweOffer.ebe62a14d42f6f4abf51.jpg",
     "static/media/enage.jpg": "/360HRPortal/static/media/enage.dadce13fbe1d711334f9.jpg",
+    "static/media/executive-search.png": "/360HRPortal/static/media/executive-search.db733a1925c962c070f6.png",
     "static/media/IT-consulting.png": "/360HRPortal/static/media/IT-consulting.6dfd9449c5dcdac32c19.png",
     "static/media/team_bg.jpg": "/360HRPortal/static/media/team_bg.32b3d2133d0410d6b93a.jpg",
     "static/media/h2_about_shape03.png": "/360HRPortal/static/media/h2_about_shape03.6e6f4f63cf6bee3737b9.png",
     "index.html": "/360HRPortal/index.html",
-    "main.f64401cd.css.map": "/360HRPortal/static/css/main.f64401cd.css.map",
-    "main.fb8a2d77.js.map": "/360HRPortal/static/js/main.fb8a2d77.js.map",
+    "main.6ae6b9d9.css.map": "/360HRPortal/static/css/main.6ae6b9d9.css.map",
+    "main.ea9df799.js.map": "/360HRPortal/static/js/main.ea9df799.js.map",
     "453.16899fc5.chunk.js.map": "/360HRPortal/static/js/453.16899fc5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f64401cd.css",
-    "static/js/main.fb8a2d77.js"
+    "static/css/main.6ae6b9d9.css",
+    "static/js/main.ea9df799.js"
   ]
 }
