@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/360HRPortal/static/css/main.f64401cd.css",
-    "main.js": "/360HRPortal/static/js/main.2460bc77.js",
+    "main.js": "/360HRPortal/static/js/main.fb8a2d77.js",
     "static/js/453.16899fc5.chunk.js": "/360HRPortal/static/js/453.16899fc5.chunk.js",
     "static/media/intern1.jpg": "/360HRPortal/static/media/intern1.3529b2ab736a10efd850.jpg",
     "static/media/source.png": "/360HRPortal/static/media/source.a5b10fb5fa57bd3568eb.png",
@@ -22,11 +22,11 @@
     "static/media/h2_about_shape03.png": "/360HRPortal/static/media/h2_about_shape03.6e6f4f63cf6bee3737b9.png",
     "index.html": "/360HRPortal/index.html",
     "main.f64401cd.css.map": "/360HRPortal/static/css/main.f64401cd.css.map",
-    "main.2460bc77.js.map": "/360HRPortal/static/js/main.2460bc77.js.map",
+    "main.fb8a2d77.js.map": "/360HRPortal/static/js/main.fb8a2d77.js.map",
     "453.16899fc5.chunk.js.map": "/360HRPortal/static/js/453.16899fc5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f64401cd.css",
-    "static/js/main.2460bc77.js"
+    "static/js/main.fb8a2d77.js"
   ]
 }
