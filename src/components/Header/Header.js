@@ -73,15 +73,14 @@ const navigate = useNavigate();
     else if(tabName=="Services"){
       navigate("/services")
     }
-    const updatedPages = pages.map(page => ({ ...page, active: false }));
+    const updatedPages = data.map(page => ({ ...page, active: false }));
     const index = updatedPages.map(e => e.tabName).indexOf(tabName);
     updatedPages[index].active = true;
     setData(updatedPages)
   }
   const location = useLocation()
-  console.log("location",location)
   const getActiveTab = () => {
-    const updatedPages = pages.map(page => ({ ...page, active: false }));
+    const updatedPages = data.map(page => ({ ...page, active: false }));
     if(location.pathname == "/"){
       updatedPages[0].active = true;
     }else if(location.pathname == "/job"){
@@ -99,7 +98,7 @@ const navigate = useNavigate();
   }
 
   React.useEffect(() =>{
-      console.log("data",data)
+    
       getActiveTab()
   },[])
   return (
